@@ -16,8 +16,8 @@
   "scripts": {
     "start": "./node_modules/.bin/babel-node ./app.js --watch ./src",
     "eslint": "./node_modules/.bin/eslint src",
-    "test": "./node_modules/.bin/eslint src && ./node_modules/.bin/jest src",
-    "testw": "./node_modules/.bin/jest --watch"
+    "test": "./node_modules/.bin/eslint src && jest src",
+    "testw": "jest --watch"
   },
   "dependencies": {
     "body-parser": "^1.17.0",
