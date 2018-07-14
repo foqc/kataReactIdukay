@@ -16,9 +16,6 @@ React with express (TDD environment)
   $ sudo npm install -g nodemon
   ```
 
-### Run app:
-yarn start
-
 ### Run eslint:
 yarn eslint
 
@@ -26,3 +23,9 @@ yarn eslint
 yarn test
 
 yarn testw
+
+### Run app:
+yarn start
+
+
+![](https://github.com/j0n4s/kataReactIdukay/blob/development/assets/kataNash.png)
